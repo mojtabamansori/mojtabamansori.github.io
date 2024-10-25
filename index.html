@@ -3,8 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <title>Mini Project 1</title>
-    <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            background: #ffffff;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+        }
+
+        .logo {
+            width: 100px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        .title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #333;
+            margin: 0.5rem 0;
+        }
+
+        .desc {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .socials {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        .socials a {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .socials a:hover {
+            transform: scale(1.2);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .socials img {
+            width: 40px;
+            height: 40px;
+            filter: grayscale(100%);
+            transition: filter 0.3s ease;
+        }
+
+        .socials img:hover {
+            filter: grayscale(0%);
+        }
+    </style>
 </head>
 <body>
     <div class="container">
